@@ -1,0 +1,13 @@
+{
+  "name": "delisttestblock",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/delisttestblock",
+    "ssh": "git@github.com:grgshiji/delisttestblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
